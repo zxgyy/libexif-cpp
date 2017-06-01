@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="fuji">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="mainsource">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="cannon">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="olympus">
+      <UniqueIdentifier>{411266a9-1a9e-4279-8cd6-4d4ad93a2516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pentax">
+      <UniqueIdentifier>{e7f947c5-73d0-492b-9e11-22aae5d26d0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libexif\canon\exif-mnote-data-canon.cpp">
+      <Filter>cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\canon\mnote-canon-entry.cpp">
+      <Filter>cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\canon\mnote-canon-tag.cpp">
+      <Filter>cannon</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\fuji\exif-mnote-data-fuji.cpp">
+      <Filter>fuji</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\olympus\exif-mnote-data-olympus.cpp">
+      <Filter>fuji</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\fuji\mnote-fuji-entry.cpp">
+      <Filter>fuji</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\fuji\mnote-fuji-tag.cpp">
+      <Filter>fuji</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-byte-order.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-content.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-data.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-entry.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-format.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-loader.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-log.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-mem.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-mnote-data.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-tag.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-utils.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\olympus\mnote-olympus-entry.cpp">
+      <Filter>olympus</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\olympus\mnote-olympus-tag.cpp">
+      <Filter>olympus</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\pentax\exif-mnote-data-pentax.cpp">
+      <Filter>pentax</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\pentax\mnote-pentax-entry.cpp">
+      <Filter>pentax</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\pentax\mnote-pentax-tag.cpp">
+      <Filter>pentax</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-ifd.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+    <ClCompile Include="libexif\exif-mnote-entry.cpp">
+      <Filter>mainsource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libexif\fuji\exif-mnote-data-fuji.h">
+      <Filter>fuji</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\fuji\mnote-fuji-entry.h">
+      <Filter>fuji</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\fuji\mnote-fuji-tag.h">
+      <Filter>fuji</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\_stdint.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\config.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-byte-order.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-content.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-data-type.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-data.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-entry.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-format.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-ifd.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-loader.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-log.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-mem.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-mnote-data-priv.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-mnote-data.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-system.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-tag.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-utils.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\i18n.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\canon\exif-mnote-data-canon.h">
+      <Filter>cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\canon\mnote-canon-entry.h">
+      <Filter>cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\canon\mnote-canon-tag.h">
+      <Filter>cannon</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\olympus\exif-mnote-data-olympus.h">
+      <Filter>olympus</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\olympus\mnote-olympus-entry.h">
+      <Filter>olympus</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\olympus\mnote-olympus-tag.h">
+      <Filter>olympus</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\pentax\exif-mnote-data-pentax.h">
+      <Filter>pentax</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\pentax\mnote-pentax-entry.h">
+      <Filter>pentax</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\pentax\mnote-pentax-tag.h">
+      <Filter>pentax</Filter>
+    </ClInclude>
+    <ClInclude Include="libexif\exif-mnote-entry.h">
+      <Filter>mainsource</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
